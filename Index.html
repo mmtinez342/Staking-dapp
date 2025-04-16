@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Time-Based Staking</title>
+  <script src="https://cdn.jsdelivr.net/npm/ethers/dist/ethers.min.js"></script>
+</head>
+<body>
+  <h1>Staking dApp</h1>
+
+  <button onclick="connectWallet()">Connect Wallet</button>
+  <p id="walletAddress"></p>
+
+  <input type="number" id="stakeAmount" placeholder="Amount to Stake">
+  <button onclick="stakeTokens()">Stake</button>
+
+  <button onclick="withdrawTokens()">Withdraw</button>
+  <p id="status"></p>
+
+  <script src="app.js"></script>
+</body>
+</html>
